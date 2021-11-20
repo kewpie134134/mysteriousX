@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Organisms from '../components/organisms';
+import CustomButton from '../components/atoms/CustomButton';
 
 const styles = {
   backgroundColor: '#000',
@@ -15,7 +15,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body style={styles}></body>
-      <Organisms />
+      <CustomButton />
     </div>
   );
 };
