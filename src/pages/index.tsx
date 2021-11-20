@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import CustomButton from '../components/atoms/CustomButton';
+import LightBulb from '../components/atoms/LightBulb';
 
 const styles = {
   backgroundColor: '#000',
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
       </Head>
       <body style={styles}></body>
       <CustomButton />
+      <LightBulb />
     </div>
   );
 };
